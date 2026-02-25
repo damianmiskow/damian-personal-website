@@ -1,6 +1,7 @@
 import "./Header.css"
 import LinkedInLogo from "../assets/icons/linked-in-icon.svg"
 import GitHubLogo from "../assets/icons/github-icon.png"
+import { NavLink } from "react-router"
 
 export function Header() {
     return (
@@ -24,13 +25,32 @@ export function Header() {
                 </a>
             </div>
                 <div className="middle-section">
-                    <button>Home</button>
+                    <NavLink to="/" 
+                    className= {({isActive}) =>
+                    isActive? "link-element active-link": "link-element"} 
+                    >Home</NavLink>
+
                     <div className="divider"></div>
-                    <button>Projects</button>
+
+                    <NavLink to="/about" 
+                    className= {({isActive}) =>
+                    isActive? "link-element active-link": "link-element"} 
+                    >About</NavLink>
+
                     <div className="divider"></div>
-                    <button>About</button>
+
+                    <NavLink to="/contact" 
+                    className= {({isActive}) =>
+                    isActive? "link-element active-link": "link-element"} 
+                    >Contact</NavLink>
+
                     <div className="divider"></div>
-                    <button>Contact</button>
+
+                    <NavLink to="/projects" 
+                    className= {({isActive}) =>
+                    isActive? "link-element active-link": "link-element"} 
+                    >Projects</NavLink>
+
                 </div>
             <div className="right-section">
                 <button className="resume-button">

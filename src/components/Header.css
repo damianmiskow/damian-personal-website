@@ -49,7 +49,7 @@
     padding-left: 10px;
 }
 
-.middle-section button {
+.link-element {
     border: none;
     background: none;
     color: white;
@@ -59,10 +59,19 @@
     border-bottom: 2px solid transparent;
     transition: border-color 0.3s;
     position: relative;
+    text-decoration: none;
 }
 
-.middle-section button:hover {
+.link-element:hover {
     border-bottom-color: white;
+}
+
+.link-element.active-link {
+    border-bottom-color: white;
+}
+
+.link-element:active {
+    border-bottom: white;
 }
 
 
