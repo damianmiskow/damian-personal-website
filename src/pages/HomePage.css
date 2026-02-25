@@ -1,0 +1,15 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+    margin: 0;
+}
+
+.welcome-message {
+    font-weight: bold;
+    font-size: 50px;
+    color: black
+}
