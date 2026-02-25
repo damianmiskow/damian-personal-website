@@ -75,5 +75,29 @@
 
 .icon{
     height: 40px;
+    cursor: pointer;
 }
 
+.resume-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0a2f7a; 
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px; 
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.resume-button:hover {
+    background-color: #1f5eff; 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.resume-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
