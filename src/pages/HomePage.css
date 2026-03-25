@@ -6,6 +6,7 @@
     text-align: center;
     gap: 2px;
     margin: 0;
+    padding-top: 60px;
 }
 
 .welcome-message {

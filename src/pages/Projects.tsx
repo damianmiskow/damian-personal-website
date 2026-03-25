@@ -12,7 +12,8 @@ export function ProjectsPage() {
   const projects: Project[] = [
     {
       title: "AWS Calculator",
-      description: "abc",
+      description:
+        "A simple React-based calculator built to test AWS Lambda and API Gateway integration, focusing on API calls, serverless functions, and frontend-backend communication.",
       image: "awscalc-ss.png",
       link: "https://project-awscalc.damianmiskow.com/",
     },
@@ -35,9 +36,11 @@ export function ProjectsPage() {
             <div className="project-content">
               <h2>{project.title}</h2>
               <p>{project.description}</p>
-              <a href={project.link} target="_blank" rel="noreferrer">
-                View Project →
-              </a>
+              <div className="view-project-container">
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  View Project →
+                </a>
+              </div>
             </div>
           </div>
         ))}

@@ -9,7 +9,6 @@ export function HomePage() {
       <div className="home-page">
         <div className="welcome-message">Damian Miskow</div>
         <div className="welcome-message">Software Development</div>
-        <div className="welcome-message">pj</div>
       </div>
     </>
   );
