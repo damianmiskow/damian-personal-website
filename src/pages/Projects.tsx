@@ -20,6 +20,7 @@ export function ProjectsPage() {
   ];
   return (
     <div className="projects-page">
+      <title>DM Projects</title>
       <Header />
 
       <div className="projects-page-title">Projects</div>
