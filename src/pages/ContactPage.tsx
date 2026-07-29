@@ -5,7 +5,6 @@ export function ContactPage() {
     <>
       <title>DM Contact</title>
       <Header />
-      <div>This is the contact page</div>
     </>
   );
 }
